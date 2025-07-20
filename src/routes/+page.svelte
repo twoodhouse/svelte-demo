@@ -2,6 +2,7 @@
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcomeFallback from '$lib/images/svelte-welcome.png';
+    import { Button } from "$lib/components/ui/button/index.js";
 </script>
 
 <svelte:head>
@@ -19,6 +20,9 @@
 		</span>
 
 		to your new<br />SvelteKit app
+
+		<Button>Click me</Button>
+
 	</h1>
 
 	<h2>
